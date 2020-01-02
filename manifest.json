@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "m.vk.com Back to top button",
+    "version": "1.0.0.0",
+    "author": "@am4ik1337",
+
+    "permissions": [
+        "activeTab"
+    ],
+
+    "content_scripts": [
+        {
+            "matches": ["*://m.vk.com/*"],
+            "js": ["m.vk.com.js"]
+        }
+    ]
+}
