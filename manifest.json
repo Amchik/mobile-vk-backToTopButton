@@ -8,6 +8,12 @@
         "activeTab"
     ],
 
+    "applications": {
+        "gecko": {
+            "id": "am4ik1337@gmail.com"
+        }
+    },
+
     "content_scripts": [
         {
             "matches": ["*://m.vk.com/*"],
